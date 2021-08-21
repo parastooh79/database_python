@@ -15,8 +15,8 @@ add_new_user = mydb.add_user('username', password='password', read_only=None, se
 # username = "username"
 # password = "password" or you can using "None" 
 
-username = input('your username? ')    
-password = getpass('your password? ')
+username = input('Username?')    
+password = getpass('Password?')
 
 authenticate = mydb.authenticate(username,password)
 
