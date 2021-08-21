@@ -12,8 +12,8 @@ mycollection= mydb["Numbers"]
 add_new_user = mydb.add_user('username', password='password', read_only=None, session=None)
 
 # new user in mongodb server was added 
-# username = username
-# password = password or you can using None 
+# username = "username"
+# password = "password" or you can using "None" 
 
 username = input('your username? ')    
 password = getpass('your password? ')
